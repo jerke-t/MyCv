@@ -27,7 +27,7 @@ include("navigation/header.php");
     <section id="opleidingen">
         <h2>Opleiding en behaalde diploma’s</h2>
         <h3>Volwassen onderwijs</h3>
-        HBO Informatica (Optie Programmeren) 14 modules van de 16 voltooid te CVO Antwerpen
+        HBO Informatica (Optie Programmeren) 15 modules van de 16 voltooid te CVO Antwerpen
         <h3>Behaalde diploma’s</h3>
         A2<br/>
         Vlaams ICT-attest (VIA)
@@ -70,20 +70,18 @@ include("navigation/header.php");
     </section>
     <section id="varia">
         <h2>Varia en hobby’s</h2>
-
-        Vlot werken met de computer (MO Word, MO Excel, MO Access, MO PowerPoint, MO FrontPage, Microsoft Outlook, Internet Explorer).
-        C#, VB.net, VBA, Html, XML
-        Flexibel, dynamisch, kan zowel autonoom als in teamverband werken, leergierig
-        Hobby’s:
-        Sport (voetbal, lopen, fietsen)
-        Film en Muziek
-        Computer
-    </section>
-    <section id="contactform">
-        <form method="post" action="result.php">
-            <input type="text" id="naam">
-            <button onclick="submit">Klik Hier!</button>
-        </form>
+        <h3>Interesses</h3>
+        <ul>
+            <li>Vlot werken met de computer (MO Word, MO Excel, MO Access, MO PowerPoint, MO FrontPage, Microsoft Outlook, Internet Explorer).</li>
+            <li>C#, VB.net, VBA, Html5, CSS, PHP, ASP.net MVC, JavaScript</li>
+            <li>Flexibel, dynamisch, kan zowel autonoom als in teamverband werken, leergierig</li>
+        </ul>
+        <h3>Hobby's</h3>
+        <ul>
+            <li>Sport (voetbal, lopen, fietsen)</li>
+            <li>Film en muziek</li>
+            <li>Computer</li>
+        </ul>
     </section>
     <?php
         include("navigation/footer.php");
