@@ -1,0 +1,14 @@
+footer>h2{
+    color:#fff;
+}
+footer>p#tel{
+    float: left;
+    margin-left:25%;
+}
+footer>p#mail{
+    float: right;
+    margin-right:25%;
+}
+footer>p>a:link{
+    text-decoration:none;
+}
