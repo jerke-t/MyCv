@@ -66,7 +66,7 @@
         </h2>
         <p>
             Een bezoeker krijgt de kans om zijn contactgegevens op te geven en een kort bericht.<br/>
-            Met behulp van PHP lees ik deze gegevens uit en geeft ik ze weer.<br/>
+            Met behulp van PHP lees ik deze gegevens uit en geef ik ze weer.<br/>
             Ik zet de achternaam in hoofdletters en het kort bericht verschijnt cursief.
         </p>
     </section>
@@ -75,12 +75,8 @@
             JavaScript
         </h2>
         <article>
-            Via JavaScript en CSS wou ik de knoppen (links naar andere pagina's) dynamisch laten veranderen.<br/>
-            Ik wou hier via javascript de classe laten veranderen en zo ook de nieuwe style laten oproepen<br/>
-            Maar ik bots op het feit dat de HTML pagina steeds herlaadt, daarom dat de classes steeds terug worden gereseted.<br/>
-            Om het toch een beetje te illustreren heb ik in het script een alert laten afgaan die de pagina <br/>
-            tegenhoudt om naar een andere pagina te gaan.<br/>
-            Daarom heb ik dan ook bij de andere li elementen het onclick() event er uit gehaald. 
+            Via JavaScript en CSS laat ik de knoppen (links naar andere pagina's) dynamisch veranderen.<br/>
+            Door hier via javascript de klasse te laten veranderen, roep ik de nieuwe style aan.<br/>
         </article>
     </section>
     <?php 

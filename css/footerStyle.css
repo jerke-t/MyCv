@@ -1,7 +1,14 @@
+footer{
+    padding-top: 5px;
+    background-color: #3498db;
+    color: white;
+    bottom: auto;
+    min-height: 200px;
+}
 footer>h2{
     color:#fff;
 }
-footer>p#tel{
+footer p#tel{
     float: left;
     margin-left:25%;
 }

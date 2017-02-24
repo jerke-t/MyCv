@@ -1,8 +1,18 @@
-<?php
-include("navigation/header.php");
-?>
+    <?php
+        include("navigation/header.php");
+    ?>
+    <nav>
+        <ul>
+			<li><button onclick="window.location.href='#personalia'" id="personalia">Personalia</button></li>
+			<li><button onclick="window.location.href='#ervaring'" id="ervaring">Ervaring</button></li>
+			<li><button onclick="window.location.href='#opleidingen'" id="opleiding">Opleidingen</button></li>
+			<li><button onclick="window.location.href='#talen'" id="taal">Talen</button></li>
+			<li><button onclick="window.location.href='#varia'" id="var">Varia</button></li>
+        </ul>
+    </nav>
     <section id="personalia">
         <h2>Persoonlijke gegevens</h2>
+        <p>
         Naam: 				Taeymans<br/>
         Voornaam:			Jerke<br/>
         Adres:				Biezenwei 2 bus 5<br/>
@@ -13,6 +23,7 @@ include("navigation/header.php");
         Plaats en datum van geboorte:	Wilrijk, 7 april 1987<br/>
         Nationaliteit:			Belg<br/>
         Burgerlijke staat:			ongehuwd<br/>
+        </p>
     </section>
     <section id="ervaring">
         <h2>Ervaring en stages</h2>
@@ -73,7 +84,7 @@ include("navigation/header.php");
         <h3>Interesses</h3>
         <ul>
             <li>Vlot werken met de computer (MO Word, MO Excel, MO Access, MO PowerPoint, MO FrontPage, Microsoft Outlook, Internet Explorer).</li>
-            <li>C#, VB.net, VBA, Html5, CSS, PHP, ASP.net MVC, JavaScript</li>
+            <li>C#, VB.net, VBA, Html5, CSS3, PHP, ASP.net MVC, JavaScript, Bootstrap, OOP, MySQL, Entity Framework, Dependency Injection</li>
             <li>Flexibel, dynamisch, kan zowel autonoom als in teamverband werken, leergierig</li>
         </ul>
         <h3>Hobby's</h3>
